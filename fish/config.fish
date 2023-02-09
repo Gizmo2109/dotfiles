@@ -5,3 +5,5 @@ if status is-interactive
 	eval (ssh-agent -c) >> /dev/null
 	ssh-add /home/oskar/.ssh/ssh-no-pw/id_rsa &> /dev/null
 end
+
+set -x KUBECONFIG ~/.kube/config/k3s.yaml

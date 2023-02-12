@@ -6,11 +6,12 @@ SETUVAR Z_DATA:/home/oskar/\x2elocal/share/z/data
 SETUVAR Z_DATA_DIR:/home/oskar/\x2elocal/share/z
 SETUVAR Z_EXCLUDE:\x5e/home/oskar\x24
 SETUVAR __fish_initialized:3400
-SETUVAR _fish_abbr_ll:exa\x20\x2dl\x20\x2da\x20\x2d\x2dicons
+SETUVAR __kube_ps_enabled:1
+SETUVAR _fisher_evanlucas_2F_fish_2D_kubectl_2D_completions_files:\x7e/\x2econfig/fish/completions/kubectl\x2efish
 SETUVAR _fisher_jethrokuan_2F_z_files:\x7e/\x2econfig/fish/functions/__z\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_add\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_clean\x2efish\x1e\x7e/\x2econfig/fish/functions/__z_complete\x2efish\x1e\x7e/\x2econfig/fish/conf\x2ed/z\x2efish
 SETUVAR _fisher_jorgebucaran_2F_fisher_files:\x7e/\x2econfig/fish/functions/fisher\x2efish\x1e\x7e/\x2econfig/fish/completions/fisher\x2efish
 SETUVAR _fisher_netologist_2F_theme_2D_lambda_files:\x7e/\x2econfig/fish/functions/fish_prompt\x2efish\x1e\x7e/\x2econfig/fish/functions/fish_right_prompt\x2efish
-SETUVAR _fisher_plugins:jorgebucaran/fisher\x1enetologist/theme\x2dlambda\x1ejethrokuan/z
+SETUVAR _fisher_plugins:jorgebucaran/fisher\x1enetologist/theme\x2dlambda\x1ejethrokuan/z\x1eevanlucas/fish\x2dkubectl\x2dcompletions
 SETUVAR _fisher_upgraded_to_4_4:\x1d
 SETUVAR fish_color_autosuggestion:555\x1ebrblack
 SETUVAR fish_color_cancel:\x2dr

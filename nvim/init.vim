@@ -5,6 +5,8 @@ nnoremap <C-H> :NERDTreeToggle<CR>
 nnoremap <C-J> :bp<CR>
 nnoremap <C-K> :bn<CR>
 
+set list
+set listchars=eol:$,space:·,tab:>-
 
 let g:NERDTreeDirArrowExpandable="+"
 let g:NERDTreeDirArrowCollapsible="-"

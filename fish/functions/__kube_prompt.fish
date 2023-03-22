@@ -33,7 +33,9 @@ function __kube_ps_update_cache
 
   set -l kubeconfig "$KUBECONFIG"
   if test -z "$kubeconfig"
-    set kubeconfig "$HOME/.kube/config"
+  	if test -z "$__kube_ps_enabled"; or test $__kube_ps_enabled -ne 1
+    		set kubeconfig "$HOME/.kube/config"
+  	end
   end
 
   if test "$kubeconfig" != "$__kube_ps_kubeconfig"

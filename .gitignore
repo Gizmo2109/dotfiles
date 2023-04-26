@@ -1,7 +1,8 @@
-./composer
-./configstore
-./helm
-./nextjs-nodejs
-./ngrok
-./obsidian
-./wslu
+composer/
+configstore/
+helm/
+nextjs-nodejs/
+ngrok/
+obsidian/
+wslu/
+pulse/

@@ -1,0 +1,10 @@
+# Ignore all
+/*
+
+# Keep gitignore
+!.gitignore
+
+# Only keep some directories
+!/fish
+!/nvim
+!/omf

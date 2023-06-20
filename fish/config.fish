@@ -6,9 +6,11 @@ if status is-interactive
 	ssh-add /home/oskar/.ssh/ssh-no-pw/id_rsa &> /dev/null
 end
 
-# set -x KUBECONFIG ~/.kube/config/k3s.yaml
+set -x KUBECONFIG ~/.kube/config
 
 alias ll="exa -l -a --icons --group-directories-first"
+
+alias vim="nvim"
 
 alias k="kubectl"
 alias h="helm"
